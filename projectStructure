@@ -1,0 +1,27 @@
+/src
+/components
+/common # Shared components like buttons, headers, footers
+/3d # Components for 3D models and animations
+/forms # Contact form and resume builder components
+/pages
+/api # API routes for contact form or other backend logic
+/resume # Page for the dynamic resume builder
+/projects # Optional page for listing detailed project descriptions
+index.tsx # Homepage
+/styles
+globals.css # Global styles
+tailwind.css # TailwindCSS setup
+/utils
+helpers.ts # Utility functions
+pdfUtils.ts # Functions for PDF generation
+/hooks
+useContactForm.ts # Custom hooks for form logic
+/assets
+/images # Static images for the portfolio
+/models # 3D model files for 3.js
+/types
+types.ts # TypeScript types and interfaces
+/context
+AppContext.ts # Context API logic if needed
+/lib
+sendEmail.ts # Email integration logic (e.g., with SendGrid)
