@@ -54,32 +54,32 @@ export default function NavBar() {
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        <div className="flex justify-between items-center p-6">
+        <div className="flex justify-between items-center p-6 bg-black ">
           <div className="text-3xl font-bold">Resume-Builder.</div>
           <button onClick={toggleMenu} className="focus:outline-none">
-            <span className="block w-6 h-1 bg-black mb-1"></span>
-            <span className="block w-6 h-1 bg-black mb-1"></span>
-            <span className="block w-6 h-1 bg-black"></span>
+            <span className="block w-6 h-1 bg-white mb-1"></span>
+            <span className="block w-6 h-1 bg-white mb-1"></span>
+            <span className="block w-6 h-1 bg-white"></span>
           </button>
         </div>
 
-        <ul className="flex flex-col items-center space-y-6 mt-10">
-          <li className="text-lg font-medium text-gray-700 hover:text-gray-900">
+        <ul className="flex flex-col items-center space-y-6 mt-10 bg-black ">
+          <li className="text-lg font-medium hover:text-gray-300">
             <a href="#" onClick={toggleMenu}>
               Home
             </a>
           </li>
-          <li className="text-lg font-medium text-gray-700 hover:text-gray-900">
+          <li className="text-lg font-medium hover:text-gray-300">
             <a href="#" onClick={toggleMenu}>
               About Us
             </a>
           </li>
-          <li className="text-lg font-medium text-gray-700 hover:text-gray-900">
+          <li className="text-lg font-medium hover:text-gray-300">
             <a href="#" onClick={toggleMenu}>
               Contact Us
             </a>
           </li>
-          <li className="text-lg font-medium text-gray-700 hover:text-gray-900">
+          <li className="text-lg font-medium hover:text-gray-300">
             <a href="#" onClick={toggleMenu}>
               Blog
             </a>
@@ -87,7 +87,7 @@ export default function NavBar() {
         </ul>
 
         <div className="mt-10 flex justify-center">
-          <button className="border-[1px] border-gray-400 py-2 px-6 rounded-md">
+          <button className="border-[1px] border-gray-400 text-white py-2 px-6 rounded-md hover:bg-gray-700">
             Join Us
           </button>
         </div>

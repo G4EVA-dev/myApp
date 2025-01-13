@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className="mt-[450px] mb-[50px] ">
+    <div className="mt-[550px] mb-[50px] ">
       <div className="text-center">
         <h1 className="text-5xl font-bold ">Welcome To ResumeBuilder</h1>
 
