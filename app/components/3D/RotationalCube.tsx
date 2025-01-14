@@ -6,8 +6,8 @@ const RotationalCube = () => {
   const mountRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const width = 400; // Set cube container width
-    const height = 400; // Set cube container height
+    const width = 412; // Set cube container width
+    const height = 412; // Set cube container height
 
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000);
@@ -23,8 +23,8 @@ const RotationalCube = () => {
       "Hello",
       "World",
       "from",
-      "Glenn",
-      "Tanze",
+      "Resume",
+      "AI",
       "Builder",
     ]);
     const cube = new THREE.Mesh(geometry, materials);
