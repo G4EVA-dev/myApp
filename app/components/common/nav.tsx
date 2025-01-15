@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Link from "next/link";
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,16 +28,16 @@ export default function NavBar() {
         <div className="hidden md:flex">
           <ul className="flex justify-around items-center gap-10">
             <li className="text-base font-medium text-gray-500 hover:text-gray-900">
-              <a href="#">Home</a>
+              <Link href="#">Home</Link>
             </li>
             <li className="text-base font-medium text-gray-500 hover:text-gray-900">
-              <a href="#">About Us</a>
+              <Link href="#">About Us</Link>
             </li>
             <li className="text-base font-medium text-gray-500 hover:text-gray-900">
-              <a href="#">Contact Us</a>
+              <Link href="#">Contact Us</Link>
             </li>
             <li className="text-base font-medium text-gray-500 hover:text-gray-900">
-              <a href="#">Blog</a>
+              <Link href="#">Blog</Link>
             </li>
           </ul>
         </div>
@@ -65,24 +66,24 @@ export default function NavBar() {
 
         <ul className="flex flex-col items-center space-y-6 mt-10 bg-black ">
           <li className="text-lg font-medium hover:text-gray-300">
-            <a href="#" onClick={toggleMenu}>
+            <Link href="#" onClick={toggleMenu}>
               Home
-            </a>
+            </Link>
           </li>
           <li className="text-lg font-medium hover:text-gray-300">
-            <a href="#" onClick={toggleMenu}>
+            <Link href="#" onClick={toggleMenu}>
               About Us
-            </a>
+            </Link>
           </li>
           <li className="text-lg font-medium hover:text-gray-300">
-            <a href="#" onClick={toggleMenu}>
+            <Link href="#" onClick={toggleMenu}>
               Contact Us
-            </a>
+            </Link>
           </li>
           <li className="text-lg font-medium hover:text-gray-300">
-            <a href="#" onClick={toggleMenu}>
+            <Link href="#" onClick={toggleMenu}>
               Blog
-            </a>
+            </Link>
           </li>
         </ul>
 
