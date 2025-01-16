@@ -13,7 +13,7 @@ export default function NavBar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white bg-opacity-90 backdrop-blur-sm shadow-sm">
       <div className="flex justify-between items-center p-6 md:space-x-10">
         {/* Logo */}
-        <div className="text-3xl font-bold">Resume-Builder.</div>
+        <div className="text-3xl font-bold">ResumeBuilder.</div>
 
         {/* Hamburger Icon */}
         <div className="md:hidden">
