@@ -15,7 +15,7 @@ export default function Hero() {
           Get Your Resume
         </button>
         <button className="border-[1px] border-gray-300 bg-white text-black py-2 px-4 rounded-md hover:opacity-50 ">
-          View My Projects
+          View Projects
         </button>
       </div>
     </div>
