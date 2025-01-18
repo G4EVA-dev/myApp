@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -11,9 +12,12 @@ export default function Hero() {
         </p>
       </div>
       <div className="flex justify-center items-center gap-10 mt-20">
-        <button className="border-[1px] border-gray-300 bg-black text-white py-2 px-4 rounded-md hover:opacity-50 ">
-          Get Your Resume
-        </button>
+        <Link href="/resume">
+          <button className="border-[1px] border-gray-300 bg-black text-white py-2 px-4 rounded-md hover:opacity-50 ">
+            Get Your Resume
+          </button>
+        </Link>
+
         <button className="border-[1px] border-gray-300 bg-white text-black py-2 px-4 rounded-md hover:opacity-50 ">
           View Projects
         </button>
