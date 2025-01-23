@@ -14,7 +14,7 @@ export default function Hero() {
       <div className="flex justify-center items-center gap-10 mt-20">
         <Link href="/resume">
           <button className="border-[1px] border-gray-300 bg-black text-white py-2 px-4 rounded-md hover:opacity-50 ">
-            Get Your Resume 
+            Get Resume 
           </button>
         </Link>
 
