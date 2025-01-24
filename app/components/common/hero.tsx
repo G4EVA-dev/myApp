@@ -19,7 +19,7 @@ export default function Hero() {
         </Link>
 
         <button className="border-[1px] border-gray-300 bg-white text-black py-2 px-4 rounded-md hover:opacity-50 ">
-          View Projects 🔎 
+          View My Projects 🔎 
         </button>
       </div>
     </div>
