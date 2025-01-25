@@ -44,7 +44,7 @@ export default function NavBar() {
 
         <div className="hidden md:block">
           <button className="border-[1px] border-gray-400 py-2 px-6 rounded-md">
-            Join Us
+            Login
           </button>
         </div>
       </div>
