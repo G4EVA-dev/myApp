@@ -89,7 +89,7 @@ export default function NavBar() {
 
         <div className="mt-10 flex justify-center">
           <button className="border-[1px] border-gray-400 text-black py-2 px-6 rounded-md hover:bg-gray-700">
-            Join Us
+            Login 
           </button>
         </div>
       </div>
